@@ -105,7 +105,7 @@
   
   /* Element Selector */
   p {
-    font-size: 0.5 em;
+    font-size: 1em;
   }
   
   /* Attribute Selector */
@@ -158,7 +158,7 @@
   /* Note: Nested selectors are part of CSS4 and are not yet supported in any browsers */
   body {
     div {
-      color: black;
+      font-family: 'Times New Roman', Times, serif
     }
   } 
 
