@@ -155,12 +155,9 @@
   } 
   
   /* Nested Selectors */
-  /* Note: Nested selectors are part of CSS4 and are not yet supported in any browsers */
-  body {
-    div {
-      font-family: 'Times New Roman', Times, serif;
-    }
-  } 
+  body div {
+    font-family: 'Times New Roman', Times, serif;
+  }
 
   /* Fonts */
   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
